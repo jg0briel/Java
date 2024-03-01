@@ -16,11 +16,11 @@ public class Principal {
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Qual o seu nome: ");
 		String nome = entrada.nextLine();
+		
 		System.out.println("Bom dia " +nome);
 		entrada.close();
 		
 	}
-
 
 	private static void ex2() {
 		Scanner entrada = new Scanner(System.in);
@@ -43,7 +43,6 @@ public class Principal {
 		
 		System.out.println("Digite agora um nome:");
 		teclado.nextLine();
-		
 		
 		String nome = teclado.nextLine();
 		System.out.println("O número digitado foi"+n1+" e nome foi "+nome);
@@ -69,10 +68,6 @@ public class Principal {
 		
 		System.out.println("A diferença entre o seu salário e o salário mínimo é: "+ (salario - salariominimo));
 		entrada.close();
-		
-		
-	
-
 
 	}
 }
